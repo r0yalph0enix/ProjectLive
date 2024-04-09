@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Serif Display", serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+header .flex{
+    justify-content: space-between;
+}
+.search{
+    width:300px;
+    height: 30px;
+    border-radius: 20px;
+    color: grey;
+    padding: 4px;
+}
+.isearch{
+    position: relative;
+    left: -22px;
+    top: 2px;
+    color: gray;
+}
+.btn{
+    background:#274595;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+header .call{
+    text-align: right;
+}
+header .allcourses{
+  margin-right: 10px;
+  font-size: 20px;
+  position: relative;
+  top:2px;
+}
+nav{
+    border-top: 1px solid grey;
+}
+nav li a{
+    color:black;
+    font-weight: 500;
+}
+nav .flex{
+    justify-content: center;
+    gap: 50px;
+}
+.sup{
+    position: relative;
+    top:-10px;
+    color: white;
+    background: orange;
+}
+.sup1{
+    position: relative;
+    top:-25px;
+    left: -15px;
+    font-size: 40px;
+}
+.Numbers{
+    font-size: 50px;
+    
+}
+.section3-1 .topic{
+    color: white;
+    font-size: 16px;
+}
+.banner{
+    display: flex;
+    height: 74vh;
+}
+
+.section1{
+    width:30%;
+    background:#274595;
+    padding: 150px 10px;
+    color: white;
+}
+.section1 p {
+    margin: 10px 0px;
+}
+.section2{
+    width:50%;
+}
+.section3{
+    width:20%;
+}
+.section3-1{
+    background: #2a6fdb;
+    height: 280px;
+    padding: 30px;
+    color: white;
+}
+.section3-2{
+    background: #81e9e6;
+    padding: 30px;
+    height: 280px;
+    color: #274595;
+}
+.btn1{
+    
+    background: #81e9e6;
+    color:#274595;
+    font-weight: 700;
+    margin-top: 60px;
+}
